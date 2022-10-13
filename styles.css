@@ -17,6 +17,7 @@
   
 }
 
+
 .alertPara{
   position: relative;
   top: 25%;
@@ -41,3 +42,36 @@
   background-color: rgba(182, 227, 136,0.3)
   
 }
+
+
+
+
+/* Pills CSS  */
+
+.pills{
+ 
+  color: white;
+  font-weight: 100;
+  position: relative;
+  top: 2rem;
+  padding: 0.5rem;
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;  
+}
+
+.pills-red
+{
+  background-color: #CD104D;
+}
+
+.pills-blue
+{
+  background-color: #ABD9FF;
+  color:black
+}
+.pills-indigo
+{
+  background-color: #293462;
+}
+
