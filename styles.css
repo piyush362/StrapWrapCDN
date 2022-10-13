@@ -75,3 +75,52 @@
   background-color: #293462;
 }
 
+
+
+
+/* button */
+
+.btnstrap
+{
+ 
+   color : white;
+   border: none;
+   font-weight: 600;
+   padding: 0.5rem;
+   border-radius: 10px;
+   width: 8%;
+   transition: 0.5s;
+   
+
+}
+
+.btnstrap:hover{
+  transition: 0.4;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  cursor: pointer;
+  transform: rotate(4deg);
+}
+
+.black-btn
+{
+  background-color: #181818;
+}
+.red-btn
+{
+  background-color: #CC3636;
+}
+.indigo-btn
+{
+  background-color: #AAC4FF;
+  color: black;
+}
+.orange-btn
+{
+  background-color: #FF9551;
+
+}
+.green-btn
+{
+  background-color: #3CCF4E;
+  
+}
