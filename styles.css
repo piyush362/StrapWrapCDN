@@ -84,11 +84,12 @@
 {
  
    color : white;
+   display: flex;
+   flex-wrap: wrap;
    border: none;
    font-weight: 600;
    padding: 0.5rem;
    border-radius: 10px;
-   width: 8%;
    transition: 0.5s;
    
 
