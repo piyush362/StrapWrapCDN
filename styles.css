@@ -1,6 +1,8 @@
 *
 {
   font-family: 'Noto Sans Ethiopic', sans-serif;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 .alert
@@ -124,4 +126,94 @@
 {
   background-color: #3CCF4E;
   
+}
+
+
+/* 
+Navbar */
+a{
+  text-decoration: none;
+  color: #181818;
+}
+.navbar{
+  position: relative;
+  left: 0px;
+  background-color: #2C3333;
+  width: 100%;
+
+
+}
+.navcover
+{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  
+}
+.navoption
+{
+  padding-right: 2rem;
+  color: white;
+  transition: 0.5s;
+}
+.navoption:hover{
+transform: rotate(5deg);
+
+
+}
+
+.rightnav{
+  position: relative;
+  justify-content: left;
+}
+.iconnav
+{
+  height: 30px;
+  width: 30px;
+  padding-left: 40rem;  
+}
+
+
+.toggler
+{
+  display: none;
+ 
+
+}
+
+@media (max-width :500px)
+{
+
+  .toggler
+{
+  display: block;
+  border: none;
+  background-color: white;
+  transition: 0.5s;
+
+}
+.toggler:hover{ 
+  transform: rotate(180deg);
+  transition: 0.4;
+}
+  
+    .navcover{
+
+        display: block;
+        height: 500px;
+        padding: 0.5rem;
+        transition: 0.5s;
+      
+        
+    }
+    .navbar{
+      width: 50%;
+      height: 50%;
+      padding: 0rem;
+      transition: 0.5;
+      
+      
+    }
+   
+    
 }
