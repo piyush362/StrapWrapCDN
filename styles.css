@@ -3,6 +3,7 @@
   font-family: 'Noto Sans Ethiopic', sans-serif;
   margin-top: 0px;
   margin-left: 0px;
+  
 }
 
 .alert
@@ -216,4 +217,109 @@ transform: rotate(5deg);
     }
    
     
+}
+
+/* margins */
+
+.m-5
+{
+  margin: 5px;
+}
+.m-10
+{
+  margin: 10px;
+}
+.m-15
+{
+  margin: 15px;
+}
+.m-25
+{
+  margin: 25px;
+}
+.m-45
+{
+  margin: 45px;
+}
+
+
+.navbars{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+
+}
+.items
+{
+  margin-right: 55px;
+  opacity: 0.5;
+}
+.items:hover{
+  margin-right: 50px;
+  border: solid;
+ 
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  transition: 0.5s;
+  font-size: 17px;
+  opacity: 1.0;
+}
+
+.marginleft
+{
+  margin-left: 500px;
+}
+
+.form
+{
+
+ 
+  border-radius: 20px;
+  height: max-content;
+  width: max-content;
+  padding: 70px;
+  margin: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.avatar{
+ position: relative;
+ top: -50px;
+ left: 15%;
+  margin-left: 12%;
+}
+
+
+.imgx{
+  height: 100px;
+  width: 100px;
+ 
+}
+
+.login-input
+{
+  margin: 5px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login-button
+{
+  width: 100%;
+  margin-top: 20px;
+  background-color: #E14D2A;
+  color: white;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border: none;
+  height: 30px;
+  cursor: pointer;
 }
