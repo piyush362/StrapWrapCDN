@@ -17,14 +17,21 @@
     <div class="avatar">
         <img src ="https://cengage.force.com/resource/1607465003000/loginIcon" class="imgx">
         </div>
-    
-    <form >
+   
+    <div>
+        <span style="display: flex;">
+<input placeholder="First Name" type="text" class="login-name">
+<input placeholder="Last Name" type="text" class="login-name">
+</span>
+
 <input placeholder="email" type="email" class="login-input">
-<br>    
-<input placeholder="password" type="password" class="login-input">
-<br>    
-<button class="login-button"> Log-In</button>
-</form>
+<br>
+<input placeholder="Contact No." type="number" class="login-input">
+<input placeholder="password" type="password" class="login-input" value="" id="form_data1">
+<input placeholder="password-check" type="password" class="login-input" value="" id="form_data2"> 
+<div id="straps" style="color: red;"> Password Mismatched</div>
+<button class="login-button" onclick="submit()"> Register User</button>
+</div>
 
 
 
