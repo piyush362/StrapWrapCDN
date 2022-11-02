@@ -27,3 +27,18 @@ function show()
         flag2 = !flag2;
     }
 }
+
+
+function submit()
+{
+    
+    if(document.getElementById("form_data1").value != document.getElementById("form_data2").value )
+    {
+       document.getElementById("straps").style.display = "block";
+    }
+    else
+    {
+        document.getElementById("straps").style.display = "none";
+    }
+
+}
